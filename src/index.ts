@@ -1,17 +1,5 @@
-interface User {
-  name: string;
-  id: number;
-}
+import { tambah, versi, User } from "./utils/math";
 
-class UserAccount {
-  name: string;
-  id: number;
-
-  constructor(name: string, id: number) {
-    this.name = name;
-    this.id = id;
-  }
-}
-
-const user: User = new UserAccount("Murphy", 1);
-console.log(user.name, user.id);
+console.log(tambah(2, 3));   // 5
+console.log(versi);          // 1.0.0
+console.log(new User("Cyber"));
