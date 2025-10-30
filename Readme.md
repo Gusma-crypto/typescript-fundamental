@@ -45,10 +45,11 @@ you can set it according to your wishes
 ```
 
 - structur directory
+```json
 project/
  ├─ src/
  │   └─ index.ts
  ├─ dist/
  ├─ tsconfig.json
  └─ package.json
-
+```
