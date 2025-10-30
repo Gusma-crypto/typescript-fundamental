@@ -18,6 +18,7 @@ npm i nodemon ts-node @types/node
 
 - Configuration
 -- settings configuration tsconfig.json
+you can set it according to your wishes
 ```json
 {
   "compilerOptions": {
